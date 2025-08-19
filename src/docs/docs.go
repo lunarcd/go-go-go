@@ -22,7 +22,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "todos"
+                    "Todos"
                 ],
                 "summary": "Get all todos",
                 "responses": {
@@ -46,7 +46,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "todos"
+                    "Todos"
                 ],
                 "summary": "Create new todo",
                 "parameters": [
@@ -86,7 +86,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "todos"
+                    "Todos"
                 ],
                 "summary": "Get todo by ID",
                 "parameters": [
@@ -125,7 +125,7 @@ const docTemplate = `{
                     "application/json"
                 ],
                 "tags": [
-                    "todos"
+                    "Todos"
                 ],
                 "summary": "Update todo by ID",
                 "parameters": [
@@ -176,7 +176,7 @@ const docTemplate = `{
             "delete": {
                 "description": "Remove a todo",
                 "tags": [
-                    "todos"
+                    "Todos"
                 ],
                 "summary": "Delete todo by ID",
                 "parameters": [
