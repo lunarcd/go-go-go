@@ -37,7 +37,7 @@ func main() {
 // GetTodos godoc
 // @Summary      Get all todos
 // @Description  Returns list of all todos
-// @Tags         todos
+// @Tags         Todos
 // @Produce      json
 // @Success      200  {array}   Todo
 // @Router       /todos [get]
@@ -48,7 +48,7 @@ func GetTodos(c *gin.Context) {
 // GetTodoByID godoc
 // @Summary      Get todo by ID
 // @Description  Returns a single todo
-// @Tags         todos
+// @Tags         Todos
 // @Produce      json
 // @Param        id   path      int  true  "Todo ID"
 // @Success      200  {object}  Todo
@@ -68,7 +68,7 @@ func GetTodoByID(c *gin.Context) {
 // CreateTodo godoc
 // @Summary      Create new todo
 // @Description  Add a new todo item
-// @Tags         todos
+// @Tags         Todos
 // @Accept       json
 // @Produce      json
 // @Param        todo  body      Todo  true  "New Todo"
@@ -89,7 +89,7 @@ func CreateTodo(c *gin.Context) {
 // UpdateTodo godoc
 // @Summary      Update todo by ID
 // @Description  Update an existing todo
-// @Tags         todos
+// @Tags         Todos
 // @Accept       json
 // @Produce      json
 // @Param        id    path      int   true  "Todo ID"
@@ -119,7 +119,7 @@ func UpdateTodo(c *gin.Context) {
 // DeleteTodo godoc
 // @Summary      Delete todo by ID
 // @Description  Remove a todo
-// @Tags         todos
+// @Tags         Todos
 // @Param        id   path      int  true  "Todo ID"
 // @Success      200  {object}  map[string]string
 // @Failure      404  {object}  map[string]string
