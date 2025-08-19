@@ -18,7 +18,16 @@ type Todo struct {
 	Done  bool   `json:"done"`
 }
 
-var todos = []Todo{}
+var todos = []Todo{
+	{ID: 1, Title: "Simple To-Do API", Done: true},
+	{ID: 2, Title: "Validation", Done: false},
+	{ID: 3, Title: "Logging Middleware", Done: false},
+	{ID: 4, Title: "Auth Middleware", Done: false},
+	{ID: 5, Title: "Connect to Postgres", Done: false},
+	{ID: 6, Title: "File Upload API", Done: false},
+	{ID: 7, Title: "Pagination & Filtering", Done: false},
+	{ID: 8, Title: "REST + JSON + Error Handling", Done: false},
+}
 
 func main() {
 	r := gin.Default()
